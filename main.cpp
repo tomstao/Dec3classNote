@@ -33,13 +33,16 @@ int main()
     double* p_price2 = &price2;
     std::cout << p_price2 << std::endl;
     std::cout << (p_price2 + 1) << std::endl; */
-
     int num = 5;
     int num2 = 10;
     std::cout << "num: " << num << " num2: " << num2 << std::endl;
     swap(num, num2);
     std::cout << "num: " << num << " num2: " << num2 << std::endl;
 
+
+    int arr[] = {1, 2, 3, 4, 5};
+    int arr1[4];
+    std::cout << "arr1: " << arr[0] << std::endl;
 
 
 
